@@ -1,0 +1,31 @@
+.place {
+  padding: 92px 0 0 0;
+  margin: auto;
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, max-content));
+  grid-template-rows: repeat(4, minmax(min-content, max-content));
+  row-gap: 26px;
+  column-gap: 40px;
+  border: solid 1px red;
+  grid-auto-rows: dense;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 928px;  
+  }   
+}
+
+@media screen and (max-width: 768px) {
+  .place{
+    max-width: 720px;  
+  }   
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    max-width: 320px;  
+    /*grid-template-rows: ;*/
+  }   
+}
