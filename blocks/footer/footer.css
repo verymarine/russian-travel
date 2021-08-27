@@ -1,0 +1,29 @@
+.footer {
+  margin: 92px auto 0 auto ;
+  padding: 0 0 24px 0;
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 88px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin: 64px 0 24px 16px;
+    gap: 48px;
+    display: grid;
+    grid-template-areas: 
+    "navigation"
+    "copyright";
+  }
+}

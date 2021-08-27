@@ -4,6 +4,5 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
-  border: solid 1px red;
   align-items: flex-end;
 }

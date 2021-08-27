@@ -1,11 +1,25 @@
 .place__image {
+  padding: 0;
+  margin: 0;
   max-width: 460px;
-  min-width: 320px;
-  max-height: 460px;
-  min-height: 320px;
-  grid-column: 1;
-  grid-row: 2/4;
-  align-self: center;
+  grid-area: image;
+}
 
+@media screen and (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    max-width: 320px;
+    padding: 0 0 32px 0;
+  }
 }

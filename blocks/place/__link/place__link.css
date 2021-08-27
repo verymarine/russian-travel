@@ -1,9 +1,14 @@
 .place__link {
-  font-family: Inter;
+  padding: 0;
+  margin: 0;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
+}
+
+.place__link:hover {
+  opacity: .8;
 }

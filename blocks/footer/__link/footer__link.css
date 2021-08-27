@@ -1,0 +1,30 @@
+.footer__link {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 112%;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 100%;
+  }
+}
+
+.footer__link:first-of-type {
+  grid-area: maps;
+}
+
+.footer__link:last-of-type {
+  margin: 0;
+  grid-area: travel;    
+}
+
+.footer__link:hover {
+  opacity: .8;
+}

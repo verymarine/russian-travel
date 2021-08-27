@@ -1,0 +1,18 @@
+.footer__navigation {
+  grid-area: navigation;
+  gap: 32px;
+  display: grid;
+  grid-template-areas: 
+  "maps whether schedule calendar travel";
+}
+
+@media screen and (max-width: 320px) {
+  .footer__navigation {
+    grid-template-areas: 
+    "maps"
+    "whether"
+    "schedule"
+    "calendar" 
+    "travel";
+  }
+}
