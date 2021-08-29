@@ -18,6 +18,13 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .footer {
+    margin: 64px 0 24px 16px;
+  }
+  
+}
+
 @media screen and (max-width: 320px) {
   .footer {
     margin: 64px 0 24px 16px;
