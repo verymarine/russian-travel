@@ -2,37 +2,43 @@
   padding: 0;
   margin: 0;
   max-width: 484px;
-  font-size: 18px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4vw;
   line-height: 163%;
   color: #FFFFFF;
-  grid-area: paragraph;
 } 
-
-.place__paragraph:last-child {
-  grid-area: paragraph_bottom;
+  
+.place__paragraph:nth-child(2) {
+  padding: 26px 0 0 0;
 }
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
     max-width: 456px;
+    font-size: 1.7vw;
   }
-  
+
+  .place__paragraph:nth-child(2) {
+    padding: 27px 0 0 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
     max-width: 352px;
+    font-size: 2vw;
   }
-  
+
+  .place__paragraph:nth-child(2) {
+    padding: 25px 0 0 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
     font-size: 16px;
-    padding: 0 16px 25px 16px;
+    font-size: 5vw;
   } 
-  
-  .place__paragraph:last-child {
-    padding: 0 16px 0 16px;
-  }
 }

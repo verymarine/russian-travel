@@ -2,22 +2,30 @@
   padding: 40px 0 0 0;
   margin: 0;
   max-width: 690px;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 1.25vw;
   line-height: 163%;
   color: #FFFFFF;
-  box-sizing: content-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    font-size: 1.56vw;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .intro__text {
     max-width: 720px;  
+    font-size: 2.08vw;
   }   
 }
 
 @media screen and (max-width: 320px) {
   .intro__text {
-    max-width: 288px;  
+    max-width: 288px;
+    font-size: 5vw;
   }   
 }

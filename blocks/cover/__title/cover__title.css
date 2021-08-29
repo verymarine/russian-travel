@@ -1,23 +1,32 @@
 .cover__title {
   padding: 0;
-  margin: auto;
+  margin: 0;
   max-width: 560px;
-  max-height: 152px;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
+  font-size: 5.62vw;
   line-height: 106%;
   text-align: center;
-  opacity: 1;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    font-size: 7.03vw;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: 9.37vw;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: 288px;
-    max-height: 70px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
+    font-size: 10vw;
     line-height: 109%;
   }
 }

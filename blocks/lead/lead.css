@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-self: center;
+  font-style: normal;
 }
 
 @media screen and (max-width: 1024px) {
