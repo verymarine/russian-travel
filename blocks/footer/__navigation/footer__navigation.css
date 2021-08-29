@@ -1,6 +1,6 @@
 .footer__navigation {
   grid-area: navigation;
-  gap: 32px;
+  gap: 18px;
   display: grid;
   grid-template-areas: 
   "maps whether schedule calendar travel";
@@ -14,5 +14,6 @@
     "schedule"
     "calendar" 
     "travel";
+    gap: 32px;
   }
 }
