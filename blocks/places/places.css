@@ -6,6 +6,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   box-sizing: border-box;
+justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
