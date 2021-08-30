@@ -9,6 +9,7 @@
   line-height: 150%;
   color: #FFFFFF;
   list-style-type: none;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {

@@ -3,6 +3,7 @@
   margin: 0;
   grid-area: website;
   align-self: end;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 500px) {

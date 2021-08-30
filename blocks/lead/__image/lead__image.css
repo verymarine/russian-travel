@@ -3,6 +3,7 @@
   margin: auto;
   width: 100%;
   justify-self: center;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
