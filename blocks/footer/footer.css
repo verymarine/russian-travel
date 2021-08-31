@@ -13,15 +13,27 @@
   }
 }
 
+@media screen and (max-width: 927px) {
+  .footer {
+    margin: 88px 0 0 0;
+    max-width: 720px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .footer {
     margin: 88px 0 0 0;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 719px) {
   .footer {
     margin: 64px 0 24px 16px;
+    gap: 48px;
+    display: grid;
+    grid-template-areas: 
+    "navigation"
+    "copyright";
   }
   
 }

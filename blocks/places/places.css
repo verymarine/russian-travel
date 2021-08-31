@@ -6,12 +6,19 @@
   flex-direction: column;
   flex-wrap: wrap;
   box-sizing: border-box;
-justify-content: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
     max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 927px) {
+  .places {
+    padding: 88px 0 0 0;
+    max-width: 720px;
   }
 }
 
@@ -22,10 +29,15 @@ justify-content: center;
   }
 }
 
+@media screen and (max-width: 719px) {
+  .places {
+    padding: 64px 0 0 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places {
     padding: 64px 0 0 0;
     max-width: 320px;
   }
-  
 }
