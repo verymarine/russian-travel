@@ -9,6 +9,7 @@
   grid-template-areas: 
   "title website"
   "image text";
+  box-sizing: border-box;
 }
 
 .place:first-of-type {
@@ -32,7 +33,7 @@
 @media screen and (max-width: 767px) {
   .place {
     margin: 50px auto 0 auto;
-    grid-template-columns: minmax(min-content, 1fr);
+    grid-template-columns: 320px;
     grid-template-areas: 
     "title"
     "website"
@@ -49,7 +50,7 @@
 @media screen and (max-width: 320px) {
   .place {
     margin: 50px auto 0 auto;
-    grid-template-columns: minmax(min-content, max-content);
+    grid-template-columns: 320px;
     grid-template-areas: 
     "title"
     "website"

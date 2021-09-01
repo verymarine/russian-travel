@@ -2,24 +2,10 @@
   padding: 0;
   margin: auto;
   max-width: 1280px;
+  min-width: 320px;
   font-family: 'Inter', 'Arial', sans-serif;
   background-color: #2A2C2F; 
+  box-sizing: border-box;
+  border: solid 1px red;
 }
 
-@media screen and (max-width: 1024px) {
-  .page {
-    max-width: 1024px;
-  } 
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    max-width: 768px;
-  } 
-}
-
-@media screen and (max-width: 320px) {
-  .page {
-    max-width: 320px;
-  } 
-}
