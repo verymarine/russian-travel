@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1200px) {
   .photo-grid {
     max-width: 928px;
     grid-template-columns: repeat(3, 1fr);
