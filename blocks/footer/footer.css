@@ -34,8 +34,7 @@
     grid-template-areas: 
     "navigation"
     "copyright";
-  }
-  
+  } 
 }
 
 @media screen and (max-width: 320px) {

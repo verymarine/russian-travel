@@ -18,7 +18,6 @@
 @media screen and (max-width: 1024px) {
   .place__paragraph {
     max-width: 456px;
-    font-size: 1.7vw;
   }
 
   .place__paragraph:nth-child(2) {
@@ -29,7 +28,7 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     max-width: 352px;
-    font-size: 2vw;
+    font-size: 16px;
   }
 
   .place__paragraph:nth-child(2) {
@@ -37,9 +36,10 @@
   }
 }
 
+
 @media screen and (max-width: 320px) {
   .place__paragraph {
     font-size: 16px;
-    font-size: 5vw;
+    max-width: 288px;
   } 
 }
