@@ -6,7 +6,7 @@
   "maps whether schedule calendar travel";
 }
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 767px) {
   .footer__navigation {
     grid-template-areas: 
     "maps"

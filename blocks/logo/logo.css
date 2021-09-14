@@ -1,13 +1,13 @@
 .logo {
   max-width: 176px;
-  padding: 28px 0 0 48px;
+  height: 52px;
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
 }
 
 @media screen and (max-width: 320px) {
   .logo {
     max-width: 142px;
-    padding: 16px 0 0 16px;
+    height: 42px;
   }
 }

@@ -2,10 +2,19 @@
   max-width: 984px;
   padding: 92px 0 0 0;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -22,23 +31,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .places {
-    padding: 88px 0 0 0;
-    max-width: 720px;
-  }
-}
-
 @media screen and (max-width: 719px) {
   .places {
     max-width: 100%;
     padding: 64px 0 0 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .places {
-    padding: 64px 0 0 0;
-    max-width: 100%;
   }
 }

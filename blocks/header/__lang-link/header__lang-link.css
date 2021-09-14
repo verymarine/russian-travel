@@ -8,12 +8,10 @@
   line-height: 117%;
   color: #FFFFFF;
   text-decoration: none;
-  align-self: end;
-  box-sizing: border-box;
 }
 
-.header__lang-link:last-of-type {
-  padding: 0 16px 0 0;
+.header__lang-link:first-of-type {
+  padding: 0 18px 0 0;
   box-sizing: border-box;
 }
 
@@ -24,9 +22,6 @@
 @media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
+    line-height: 111%;
   }
-
-    .header__lang-link:last-of-type {
-      padding: 0 24px 0 0;
-    }
-  }  
+}  
