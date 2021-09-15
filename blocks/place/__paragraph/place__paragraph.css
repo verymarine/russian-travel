@@ -40,5 +40,10 @@
 @media screen and (max-width: 320px) {
   .place__paragraph {
     /* max-width: 288px; */
+    padding: 0 16px;
   } 
+
+  .place__paragraph:nth-child(2) {
+    padding: 25px 16px 0 16px; 
+  }
 }
