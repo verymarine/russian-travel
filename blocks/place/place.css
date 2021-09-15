@@ -5,7 +5,7 @@
   display: grid;
   row-gap: 48px;
   column-gap: 40px;
-  grid-template-columns: max-content, max-content;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
   grid-template-areas:
   "title website"
   "image text";
@@ -37,7 +37,7 @@
     "website"
     "image"
     "text";
-    gap: 32px;
+    row-gap: 32px;
   }
 
   .place:first-of-type {
