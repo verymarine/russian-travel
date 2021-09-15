@@ -10,6 +10,7 @@
   "title website"
   "image text";
   box-sizing: border-box;
+  justify-content: center;
 }
 
 .place:first-of-type {
@@ -29,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 584px) {
+@media screen and (max-width: 320px) {
   .place {
     margin: 50px 0 0 0;
     grid-template-areas: 
