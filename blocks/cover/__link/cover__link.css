@@ -13,8 +13,6 @@
   background-repeat: no-repeat;
   background-size: 100%;
   z-index: 0;
-  /* box-sizing: content-box;
-  border: solid 2px red; */
 }
 
 .cover__link::before {
