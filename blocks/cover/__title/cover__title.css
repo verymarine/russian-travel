@@ -14,20 +14,20 @@
 
 @media screen and (max-width: 1279px) {
   .cover__title {
-    font-size: 7.03vw;
+    font-size: 32px;
   } 
 }
 
 @media screen and (max-width: 1023px) {
   .cover__title {
-    font-size: 9.37vw;
+    /* font-size: 9.37vw; */
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__title {
     max-width: 288px;
-    font-size: 10vw;
+    /* font-size: 10vw; */
     line-height: 109%;
   }
 }

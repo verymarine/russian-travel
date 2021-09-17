@@ -41,8 +41,4 @@
     row-gap: 32px;
     column-gap: 0;
   }
-
-  .place:first-of-type {
-    margin: 0;
-  }
 } 
