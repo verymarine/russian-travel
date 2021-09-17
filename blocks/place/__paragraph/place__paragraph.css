@@ -20,10 +20,6 @@
     /* max-width: 456px; */
     padding: 27px 0 0 0;
   }
-
-  .place__paragraph:first-of-type{
-    padding: 0;
-  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -31,10 +27,6 @@
     /* max-width: 352px; */
     font-size: 16px;
     padding: 25px 0 0 0;
-  }
-
-  .place__paragraph:first-of-type {
-    padding: 0;
   }
 }
 
